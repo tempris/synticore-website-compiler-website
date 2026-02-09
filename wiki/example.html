@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="format-detection" content="telephone=no"><meta name="format-detection" content="date=no"><meta name="format-detection" content="address=no"><meta name="format-detection" content="email=no"><meta name="HandheldFriendly" content="true"><meta name="theme-color" content="#5599ff"><meta property="og:site_name" content="Example - Wiki - Synticore Website Compiler"><meta property="og:title" content="Example - Wiki - Synticore Website Compiler"><title>Example - Wiki - Synticore Website Compiler</title><meta property="og:image" content="/asset/image/favicon/pagethumb.png"><meta property="og:description" content="This is Synticore!"><meta property="og:url" content="https://synticore.cureinteractive.com"><meta property="og:type" content="website"><link rel="”image_src”" href="/asset/image/favicon/pagethumb.png"><link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="/asset/css/style.min.css?v=e011860116833030c43ac93856623f51"><link rel="icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="57x57" href="/asset/image/favicon/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="114x114" href="/asset/image/favicon/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="72x72" href="/asset/image/favicon/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="144x144" href="/asset/image/favicon/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="60x60" href="/asset/image/favicon/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="120x120" href="/asset/image/favicon/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="76x76" href="/asset/image/favicon/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="152x152" href="/asset/image/favicon/apple-touch-icon-152x152.png"><meta name="msapplication-TileColor" content="#5599ff"><meta name="msapplication-TileImage" content="/mstile-144x144.png"><meta name="msapplication-config" content="browserconfig.xml"><meta name="Description" content="This is Synticore!"><link rel="stylesheet" href="/asset/css/font-icon/font-icon-interface.min.css?v=e5204bcb2e176c24c8bc2da7ece8474b"><link rel="stylesheet" href="/asset/css/font-icon/font-icon-social.min.css?v=b9b39ef069e2d55d7998c178b8866dc6"><link rel="stylesheet" href="/asset/css/font-icon/font-icon-icon.min.css?v=24685e42a4027c2770027a6f30dfe8a5"><link rel="stylesheet" href="/asset/css/module/prism/prism.min.css?v=eecc2304bf98a2f45f5427bf6f018c8b"><link rel="stylesheet" href="/asset/css/module/prism-custom.min.css?v=0a08639199eae7d2ee48146b89571981"></head><body ontouchstart><header><div class="frame--content"><a class="skip_to_main button ignore--print" href="#main" title="Skip to main">Skip to main</a><nav aria-label="primary" class="clearfix"><div id="nav_header__top" class="clearfix"><div id="nav_header__top__left"><a id="nav_header__brand" class="svg__size_to_fit" href="/" title="Synticore Website Compiler: Home"><img src="/asset/image/brand/logo.svg" alt="Synticore Website Compiler"></a></div></div><div id="nav_header__row__button" class="ignore--print"><a class="button" href="https://github.com/tempris/synticore-website-compiler/releases" title="Download from Github"><span class="font-icon--interface-download"></span> Download <span class="font-icon--interface-external"></span></a><a class="button" href="/wiki" title="Wiki"><span class="font-icon--icon-book"></span> Wiki</a><a class="button" href="https://github.com/tempris/synticore-website-compiler/issues" title="Report Issue on Github"><span class="font-icon--icon-flag"></span> Report Issue <span class="font-icon--interface-external"></span></a><a class="button" href="/about" title="About Synticore Website Compiler"><span class="font-icon--icon-about"></span> About</a><a class="button" href="/license" title="Synticore Website Compiler License"><span class="font-icon--icon-id-card"></span> License</a><a class="button font-icon--color--social-github--background" href="https://github.com/tempris/synticore-website-compiler" title="Visit Synticore Website Compiler on Github"><span class="font-icon--social-github"></span> Github <span class="font-icon--interface-external"></span></a></div></nav></div></header><main id="main"><div class="frame--content"><section id="breadcrumb"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a class="button" href="/" title="Home"><span class="font-icon--interface-home"></span> Home</a></li><li class="breadcrumb-item"><a class="button" href="/wiki" title="Wiki">Wiki</a></li><li class="breadcrumb-item active"><span>Example</span></li></ol></nav></section><section id="section-toc"><span id="toc-title">Table of Contents</span><div id="toc"><details class="nav sidenav"><summary><a class="toc__link" href="#-synticore-website-compiler---configuration-example"><span class="span--emoji">🧪</span> Synticore Website Compiler - Configuration Example</a></summary><a class="toc__link" href="#-synticore-website-compiler---configuration-example--purpose"><span class="span--emoji">🎯</span> Purpose</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--minimal-project-config"><span class="span--emoji">✅</span> Minimal Project Config</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--navigation-breadcrumb--toc"><span class="span--emoji">🧭</span> Navigation: Breadcrumb + ToC</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--javascript-minification-profile"><span class="span--emoji">🧰</span> JavaScript Minification Profile</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--syntax-highlight-prism-with-generated-imports"><span class="span--emoji">✨</span> Syntax Highlight (Prism) With Generated Imports</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--mirror-files-into-output"><span class="span--emoji">🪞</span> Mirror Files Into Output</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--packaging-zip--directory-output-with-custom-target"><span class="span--emoji">📦</span> Packaging: Zip + Directory Output With Custom Target</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example--watermark-images-by-filename-pattern"><span class="span--emoji">🧷</span> Watermark Images By Filename Pattern</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example-title-composition-from-path-and-filename">Title Composition From Path And Filename</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example-build-and-validate-examples">Build And Validate Examples</a> <a class="toc__link" href="#-synticore-website-compiler---configuration-example-explore-more"><span class="text">Explore More</span></a></details></div></section><section class="section--markdown"><h1 id="-synticore-website-compiler---configuration-example"><span class="span--emoji">🧪</span> Synticore Website Compiler - Configuration Example<span> <a href="#-synticore-website-compiler---configuration-example" name="-synticore-website-compiler---configuration-example" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h1><h2 id="-synticore-website-compiler---configuration-example--purpose"><span class="counter"></span><span class="span--emoji">🎯</span> Purpose<span> <a href="#-synticore-website-compiler---configuration-example--purpose" name="-synticore-website-compiler---configuration-example--purpose" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><p>This page provides practical, copy-ready configuration examples for common use cases.</p><p>All examples use current key namespaces for Synticore v1.1.0.</p><hr><h2 id="-synticore-website-compiler---configuration-example--minimal-project-config"><span class="counter"></span><span class="span--emoji">✅</span> Minimal Project Config<span> <a href="#-synticore-website-compiler---configuration-example--minimal-project-config" name="-synticore-website-compiler---configuration-example--minimal-project-config" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;require&quot;: {
+    &quot;site&quot;: {
+      &quot;title&quot;: &quot;My Site&quot;,
+      &quot;url&quot;: &quot;https://example.com&quot;
+    }
+  },
+  &quot;option&quot;: {
+    &quot;url&quot;: {
+      &quot;clean&quot;: true,
+      &quot;trailing_slash&quot;: true
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--navigation-breadcrumb--toc"><span class="counter"></span><span class="span--emoji">🧭</span> Navigation: Breadcrumb + ToC<span> <a href="#-synticore-website-compiler---configuration-example--navigation-breadcrumb--toc" name="-synticore-website-compiler---configuration-example--navigation-breadcrumb--toc" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;navigation&quot;: {
+      &quot;shared&quot;: {
+        &quot;ignore_patterns&quot;: [&quot;index.html&quot;, &quot;404.html&quot;, &quot;503.html&quot;]
+      },
+      &quot;breadcrumb&quot;: {
+        &quot;enable&quot;: true,
+        &quot;base_path&quot;: &quot;&quot;,
+        &quot;ignore_patterns&quot;: null,
+        &quot;replace_text&quot;: &quot;&lt;!-- breadcrumb --&gt;&quot;,
+        &quot;root_content&quot;: &quot;Home&quot;
+      },
+      &quot;toc&quot;: {
+        &quot;enable&quot;: true,
+        &quot;depth&quot;: 4,
+        &quot;collapsible&quot;: false,
+        &quot;selectors&quot;: &quot;h1,h2,h3,h4,h5,h6&quot;,
+        &quot;header_prepend&quot;: &quot;&lt;span class=\&quot;counter\&quot;&gt;&lt;/span&gt;&quot;,
+        &quot;header_prepend_selectors&quot;: &quot;h2,h3,h4,h5,h6&quot;,
+        &quot;ignore_class&quot;: &quot;toc-ignore&quot;,
+        &quot;ignore_patterns&quot;: null,
+        &quot;replace_text&quot;: &quot;&lt;!-- toc --&gt;&quot;,
+        &quot;wrap_emoji&quot;: null
+      }
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--javascript-minification-profile"><span class="counter"></span><span class="span--emoji">🧰</span> JavaScript Minification Profile<span> <a href="#-synticore-website-compiler---configuration-example--javascript-minification-profile" name="-synticore-website-compiler---configuration-example--javascript-minification-profile" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;js&quot;: {
+      &quot;minify&quot;: {
+        &quot;compress&quot;: true,
+        &quot;mangle&quot;: false,
+        &quot;keep_classnames&quot;: false,
+        &quot;keep_fnames&quot;: false
+      }
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--syntax-highlight-prism-with-generated-imports"><span class="counter"></span><span class="span--emoji">✨</span> Syntax Highlight (Prism) With Generated Imports<span> <a href="#-synticore-website-compiler---configuration-example--syntax-highlight-prism-with-generated-imports" name="-synticore-website-compiler---configuration-example--syntax-highlight-prism-with-generated-imports" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;highlight&quot;: {
+      &quot;syntax&quot;: {
+        &quot;enable&quot;: true,
+        &quot;generateImports&quot;: true,
+        &quot;path&quot;: {
+          &quot;css&quot;: &quot;css/module&quot;,
+          &quot;js&quot;: &quot;js/module&quot;
+        },
+        &quot;theme&quot;: {
+          &quot;enable&quot;: true,
+          &quot;include&quot;: [&quot;prism&quot;]
+        },
+        &quot;language&quot;: {
+          &quot;enable&quot;: true,
+          &quot;include&quot;: [&quot;html&quot;, &quot;css&quot;, &quot;javascript&quot;]
+        },
+        &quot;plugin&quot;: {
+          &quot;enable&quot;: true,
+          &quot;include&quot;: [&quot;line-numbers&quot;, &quot;toolbar&quot;, &quot;copy-to-clipboard&quot;]
+        }
+      }
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--mirror-files-into-output"><span class="counter"></span><span class="span--emoji">🪞</span> Mirror Files Into Output<span> <a href="#-synticore-website-compiler---configuration-example--mirror-files-into-output" name="-synticore-website-compiler---configuration-example--mirror-files-into-output" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;mirrors&quot;: [
+      {
+        &quot;source&quot;: &quot;in/robots&quot;,
+        &quot;destination&quot;: &quot;&quot;,
+        &quot;match_pattern&quot;: &quot;**/*&quot;
+      },
+      {
+        &quot;source&quot;: &quot;in/asset/vendor&quot;,
+        &quot;destination&quot;: &quot;asset/vendor&quot;,
+        &quot;match_pattern&quot;: [&quot;**/*&quot;, &quot;!**/*.map&quot;]
+      }
+    ]
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--packaging-zip--directory-output-with-custom-target"><span class="counter"></span><span class="span--emoji">📦</span> Packaging: Zip + Directory Output With Custom Target<span> <a href="#-synticore-website-compiler---configuration-example--packaging-zip--directory-output-with-custom-target" name="-synticore-website-compiler---configuration-example--packaging-zip--directory-output-with-custom-target" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;package&quot;: {
+      &quot;output&quot;: {
+        &quot;zip&quot;: true,
+        &quot;directory&quot;: true
+      },
+      &quot;ignore&quot;: [&quot;example&quot;],
+      &quot;targets&quot;: [
+        {
+          &quot;suffix&quot;: &quot;&quot;,
+          &quot;paths&quot;: [
+            {
+              &quot;source&quot;: &quot;out&quot;,
+              &quot;destination&quot;: &quot;&quot;,
+              &quot;ignore&quot;: [],
+              &quot;no_ignore&quot;: false
+            }
+          ]
+        },
+        {
+          &quot;suffix&quot;: &quot;static&quot;,
+          &quot;paths&quot;: [
+            {
+              &quot;source&quot;: &quot;out/asset&quot;,
+              &quot;destination&quot;: &quot;asset&quot;,
+              &quot;ignore&quot;: [&quot;**/*.map&quot;],
+              &quot;no_ignore&quot;: false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example--watermark-images-by-filename-pattern"><span class="counter"></span><span class="span--emoji">🧷</span> Watermark Images By Filename Pattern<span> <a href="#-synticore-website-compiler---configuration-example--watermark-images-by-filename-pattern" name="-synticore-website-compiler---configuration-example--watermark-images-by-filename-pattern" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;image&quot;: {
+      &quot;watermark&quot;: [
+        {
+          &quot;pattern&quot;: &quot;**/*.watermark.*&quot;,
+          &quot;layers&quot;: [
+            {
+              &quot;image&quot;: &quot;brand/_watermark.png&quot;,
+              &quot;gravity&quot;: &quot;Center&quot;,
+              &quot;opacity&quot;: 37.5,
+              &quot;resize&quot;: 1.0,
+              &quot;background&quot;: &quot;none&quot;,
+              &quot;gmOptions&quot;: &quot;-tile&quot;
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example-title-composition-from-path-and-filename"><span class="counter"></span>Title Composition From Path And Filename<span> <a href="#-synticore-website-compiler---configuration-example-title-composition-from-path-and-filename" name="-synticore-website-compiler---configuration-example-title-composition-from-path-and-filename" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><pre><code class="language-json">{
+  &quot;option&quot;: {
+    &quot;title&quot;: {
+      &quot;source&quot;: &quot;filename&quot;,
+      &quot;compose&quot;: {
+        &quot;dirDepth&quot;: -1,
+        &quot;dirOrder&quot;: &quot;leafToRoot&quot;,
+        &quot;dirJoiner&quot;: &quot; - &quot;,
+        &quot;titleJoiner&quot;: &quot; - &quot;
+      },
+      &quot;name&quot;: {
+        &quot;case&quot;: {
+          &quot;preserve&quot;: false,
+          &quot;enforceCamel&quot;: true
+        },
+        &quot;separator&quot;: {
+          &quot;separatorsToSpace&quot;: [&quot;_&quot;, &quot;-&quot;],
+          &quot;stripPatterns&quot;: [],
+          &quot;wordSplitPattern&quot;: &quot;[\\s_\\-]+&quot;,
+          &quot;wordJoinSeparator&quot;: &quot; &quot;
+        },
+        &quot;word&quot;: {
+          &quot;acronyms&quot;: [&quot;HTML&quot;, &quot;CSS&quot;, &quot;JS&quot;, &quot;API&quot;, &quot;URL&quot;],
+          &quot;lowercases&quot;: [&quot;a&quot;, &quot;an&quot;, &quot;and&quot;, &quot;the&quot;, &quot;of&quot;, &quot;to&quot;],
+          &quot;propercases&quot;: [&quot;JavaScript&quot;, &quot;Synticore&quot;]
+        }
+      }
+    }
+  }
+}
+</code></pre><hr><h2 id="-synticore-website-compiler---configuration-example-build-and-validate-examples"><span class="counter"></span>Build And Validate Examples<span> <a href="#-synticore-website-compiler---configuration-example-build-and-validate-examples" name="-synticore-website-compiler---configuration-example-build-and-validate-examples" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><p>After applying config changes:</p><pre><code class="language-bash">npm run gulp sort_config
+npm run gulp build_config
+npm run gulp build
+</code></pre><p>For full refresh when testing config-heavy changes:</p><pre><code class="language-bash">npm run gulp rebuild
+</code></pre></section><section><h2 id="-synticore-website-compiler---configuration-example-explore-more"><span class="counter"></span><span class="text">Explore More</span><span> <a href="#-synticore-website-compiler---configuration-example-explore-more" name="-synticore-website-compiler---configuration-example-explore-more" class="anchor ignore--print"><span class="font-icon--interface-link"></span></a></span></h2><a class="button button--large" href="/" title="Download from Github"><span class="font-icon--interface-home"></span> Home</a><a class="button button--large" href="https://github.com/tempris/synticore-website-compiler/releases" title="Download from Github"><span class="font-icon--interface-download"></span> Download <span class="font-icon--interface-external"></span></a><a class="button button--large" href="/wiki" title="Wiki"><span class="font-icon--icon-book"></span> Wiki</a><a class="button button--large" href="https://github.com/tempris/synticore-website-compiler/issues" title="Report Issue on Github"><span class="font-icon--icon-flag"></span> Report Issue <span class="font-icon--interface-external"></span></a><a class="button button--large" href="/license" title="Synticore Website Compiler License"><span class="font-icon--icon-id-card"></span> License</a><a class="button button--large font-icon--color--social-github--background" href="https://github.com/tempris/synticore-website-compiler" title="Visit Synticore Website Compiler on Github"><span class="font-icon--social-github"></span> Github <span class="font-icon--interface-external"></span></a></section></div></main><footer><div class="frame--content"><p><span>© <span id="copyrightyears__author">2024-2026</span> <a href="https://www.cureinteractive.com" title="Cure Interactive: Home">Cure Interactive <span class="font-icon--interface-external"></span> </a><span>, All Rights Reserved.</span></span></p><p><a href="/license" title="Synticore Website Compiler License"><span class="font-icon--icon-id-card"></span> Synticore Website Compiler License</a></p></div></footer><script src="/asset/js/main.min.js?v=1d3c552ba7af8cae2a36dc111541bcbb"></script><script src="/asset/js/module/prism/prism.min.js?v=79884bf4e4baa40ac2d3b3ff5d7068be"></script></body></html><!-- Built with Synticore Website Compiler 1.1.0 -->

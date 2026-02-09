@@ -1,12 +1,12 @@
 {
-  "name": "Staticus Website Compiler",
-  "short_name": "Staticus Website Compiler",
+  "name": "Synticore Website Compiler",
+  "short_name": "Synticore Website Compiler",
   "start_url": "/",
   "scope": "/",
   "display": "browser",
-  "background_color": "#555555",
-  "theme_color": "#555555",
-  "description": "This is Staticus!",
+  "background_color": "#5599ff",
+  "theme_color": "#5599ff",
+  "description": "This is Synticore!",
   "icons": [
     {
       "src": "/asset/image/favicon/favicon-192.png",

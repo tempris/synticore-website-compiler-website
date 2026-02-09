@@ -2,66 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/about.html</loc>
+        <loc>https://synticore.cureinteractive.com/about</loc>
     
         
-        <lastmod>2025-11-03T16:57:47.913Z</lastmod>
+        <lastmod>2026-02-03T05:34:08.149Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/</loc>
+        <loc>https://synticore.cureinteractive.com</loc>
     
         
-        <lastmod>2025-11-03T04:19:39.846Z</lastmod>
+        <lastmod>2026-02-05T05:32:35.747Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/license.html</loc>
+        <loc>https://synticore.cureinteractive.com/license</loc>
     
         
-        <lastmod>2025-11-03T04:19:39.846Z</lastmod>
+        <lastmod>2026-02-03T03:39:50.085Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/wiki.md</loc>
+        <loc>https://synticore.cureinteractive.com/wiki</loc>
     
         
-        <lastmod>2025-09-16T22:27:34.337Z</lastmod>
+        <lastmod>2026-02-06T22:04:16.152Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/wiki/config.md</loc>
+        <loc>https://synticore.cureinteractive.com/wiki/config</loc>
     
         
-        <lastmod>2025-09-16T22:27:34.339Z</lastmod>
+        <lastmod>2026-02-09T03:34:10.504Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/wiki/gui.md</loc>
+        <loc>https://synticore.cureinteractive.com/wiki/example</loc>
     
         
-        <lastmod>2025-09-16T22:27:34.341Z</lastmod>
+        <lastmod>2026-02-06T05:49:14.461Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/wiki/setup.md</loc>
+        <loc>https://synticore.cureinteractive.com/wiki/gui</loc>
     
         
-        <lastmod>2025-09-16T22:27:34.341Z</lastmod>
+        <lastmod>2026-02-06T22:01:53.650Z</lastmod>
     
     </url>
     <url>
         
-        <loc>https://www.staticwebsitecompiler.com/wiki/terminal.md</loc>
+        <loc>https://synticore.cureinteractive.com/wiki/log</loc>
     
         
-        <lastmod>2025-02-19T22:15:50.973Z</lastmod>
+        <lastmod>2026-02-06T05:49:14.462Z</lastmod>
     
     </url>
-</urlset><!-- Built with Staticus Website Compiler 1.1.0 -->
+    <url>
+        
+        <loc>https://synticore.cureinteractive.com/wiki/migration</loc>
+    
+        
+        <lastmod>2026-02-08T15:01:45.042Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://synticore.cureinteractive.com/wiki/setup</loc>
+    
+        
+        <lastmod>2026-02-07T18:12:00.333Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://synticore.cureinteractive.com/wiki/structure</loc>
+    
+        
+        <lastmod>2026-02-06T05:49:14.464Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://synticore.cureinteractive.com/wiki/terminal</loc>
+    
+        
+        <lastmod>2026-02-07T18:11:53.782Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://synticore.cureinteractive.com/wiki/workflow</loc>
+    
+        
+        <lastmod>2026-02-07T18:11:57.550Z</lastmod>
+    
+    </url>
+</urlset><!-- Built with Synticore Website Compiler 1.1.0 -->
